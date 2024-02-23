@@ -3,6 +3,7 @@
  * @return {boolean}
  */
 var isValid = function(s) {
+    
     let stack = [];
     let mapping = {")": "(", "}": "{", "]": "["};
 
@@ -20,3 +21,5 @@ var isValid = function(s) {
 };
 
 module.exports = { isValid };
+
+
